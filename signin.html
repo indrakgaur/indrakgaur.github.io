@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="illustration-section">
+            <img src="engineering.svg" alt="Great Illustration">
+        </div>
+        <div class="sigin-section">
+            <form id="form">
+                <p id="page-description">Sign In!</p>
+                <div class="inp-wrap">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Enter Email" id="email">
+                    <p id="email-err" class="error">Show error</p>
+                </div>
+                <div class="inp-wrap">
+                    <label for="pwd">Password</label>
+                    <input type="password" placeholder="Enter Password" id="pwd">
+                    <p id="pwd-err" class="error">Show error</p>
+                </div>
+                <div class="siginbtn-wrap">
+                    <input class="button" type="submit" value="Sign In">
+                </div>
+                <p id="success">Signed In!</p>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="signin.js"></script>
+</body>
+</html>

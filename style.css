@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gentium Plus', serif;
+}
+
+.outer {
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.upper {
+    height: 25vh;
+    background-color:  #bedbf7;
+    display: flex;
+}
+
+.lower {
+    height: 75vh;
+    background-color: #e9eef3;
+    display: flex;
+}
+
+.card {
+    border: 2px solid black;
+    width: 100%;
+    text-align: center; /* Center the text horizontally */
+  }
+
+.wrap {
+	height: 100%;
+}
+
+.image {
+	display: block;
+	left: 18%;
+	top: 9%;
+    border-radius: 50%;
+    width: 200px;
+	position: absolute;
+    border: 9px solid #f6efef;
+}
+
+.illustration-section,
+.register-section,.sigin-section {
+    height: 100vh;
+    width: 50%;
+}
+
+.illustration-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bedbf7;
+}
+
+.register-section {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sigin-section {
+    background-color: white;
+    padding: 170px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.illustration-section img {
+    overflow: auto;
+    width: 80%;
+}
+
+form {
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#page-description {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #090909;
+}
+
+
+.inp-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 8px;
+}
+
+
+label {
+    font-size: 0.9rem;
+}
+
+
+input[type=password],
+input[type=text],input[type=file] {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 2px solid #339dff;
+    outline: none;
+}
+
+
+input[type=password]:focus,
+input[type=text]:focus,
+input[type=password]:hover,
+input[type=text]:hover,
+input[type=file] {
+    border: 2px solid #339dff;
+}
+
+
+.button, .siginbutton{
+    background-color: #339dff;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    display: block;
+}
+
+ .logoutbutton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #339dff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: #339dff;
+    border: 1px solid #339dff;
+}
+
+.logoutbutton:hover {
+    background-color: white;
+    color: #339dff;
+    border: 1px solid #339dff;
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #339dff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background-color: white;
+    color: #339dff;
+    border: 1px solid #339dff;
+  }
+
+.btn-wrap {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.siginbtn-wrap{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+p {
+    font-size: 14px;
+}
+
+#pwd-info {
+    color: rgb(127, 127, 127);
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+#success {
+    color: #097963;
+    text-align: end;
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
